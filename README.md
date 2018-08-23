@@ -1,6 +1,8 @@
 # proto-json
 
-一个基于约定协议的json压缩，解压缩 插件，
+一个基于约定协议的json压缩，解压缩 插件，   
+编码：根据protocal.json把json的key替换成数字；    
+解码：根据protocal.json吧编码json的 数字key再替换回来
 
 ## install
 
