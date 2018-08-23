@@ -6,12 +6,14 @@
 
 `npm install @weivea/proto-json`
 
-## usage
+## test
 
 运行测试
 ```
 npm run test
 ```
+
+## usage
 
 
 ```javascript
