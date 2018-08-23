@@ -1,0 +1,18 @@
+{
+  "name": "@weivea/protojson",
+  "version": "1.0.0",
+  "description": "protocol Json compress",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "protocol",
+    "json"
+  ],
+  "author": "weijianli",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
