@@ -10,7 +10,7 @@ public class TestJSON {
     // String protocal = "{\"width\":\"\",\"height\":\"\",\"weight\":\"\",\"age\":\"\",\"name\":\"\",\"partner\":{\"width\":\"\",\"height\":\"\",\"weight\":\"\",\"age\":\"\",\"name\":\"\"},\"children\":[{\"width\":\"\",\"height\":\"\",\"weight\":\"\",\"age\":\"\",\"name\":\"\",\"friends\":[{\"name\":\"\",\"type\":\"\",\"gender\":\"\"}]}]}";
     // String jsonString = "{\"width\":50,\"height\":180,\"weight\":50,\"age\":30,\"name\":\"lalala\",\"partner\":{\"width\":28,\"height\":170,\"weight\":49,\"age\":30,\"name\":\"bobo\",\"adc\":\"acasdv\"},\"children\":[{\"width\":30,\"height\":100,\"weight\":40,\"age\":12,\"name\":\"liliya\",\"friends\":[{\"name\":\"tom\",\"type\":\"cat\"},{\"name\":\"bam\",\"type\":\"dog\"}]},{\"width\":45,\"height\":160,\"weight\":45,\"age\":15,\"name\":\"tifny\",\"friends\":[{\"name\":\"erix\",\"gender\":\"male\"}]}]}";
     
-    FileInputStream fip = new FileInputStream("/Users/weijianli/work/learnJava/protojson/protocal.json");
+    FileInputStream fip = new FileInputStream("./protojson/protocal.json");
     InputStreamReader reader = new InputStreamReader(fip, "UTF-8");
     StringBuffer sb = new StringBuffer();
     while (reader.ready()) {
